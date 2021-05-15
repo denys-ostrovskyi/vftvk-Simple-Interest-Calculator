@@ -1,4 +1,29 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
+
+h1 {
+    color: grey;
+    font-family: verdana
+}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    /* instead of "align:center" we can use margin: */
+    margin-left: 50%;
+    /* since margin moves element from the border we should use transform to move it 50% of its width left */
+    transform: translateX(-50%);
+}
 
 
+/* To highlight the numbers I will siply use <text> element in the #result div */
+
+#result text {
+    background-color: yellow;
+}
